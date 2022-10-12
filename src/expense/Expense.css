@@ -1,0 +1,30 @@
+
+.container{
+    max-width: 800px;
+    border:1px solid black;
+    margin: 30px auto;
+
+}
+
+table{
+    border-collapse: collapse;
+    margin: 30px auto;
+    background-image: url("tab7.jpeg");
+    background-position:right;
+
+    
+    
+}
+
+table td, table th{
+    border: 2px solid gray;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight:bold;
+    
+   
+}
+
+.item{
+     color: rgb(224, 20, 30);
+}
