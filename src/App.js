@@ -43,6 +43,7 @@ class App extends Component{
   render(){
     return(<div className='heading'>
       <h1>Expense Tracker</h1>
+           <h3>Surendar React Project1</h3>
       <Balance balanceName={this.state.balanceName} itemNumber={this.state.itemNumber} 
       onChangeHandler={this.onChangeHandler} onActionHandler={this.onActionHandler} />
       <Expense List={this.state.List}/>
